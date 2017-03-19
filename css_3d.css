@@ -1,0 +1,269 @@
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+@font-face{
+        font-family: "Lekton";
+	src: url(lekton/Lekton-Regular.ttf);
+        }
+     
+html{
+        height:100%
+                
+}
+
+body
+{       
+
+        -webkit-box-sizing: border-box; /* Safari, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        width: 100%;
+        color: rgba(230,230,230,1);
+	background-color: rgba(10,10,10,1);
+	margin: 0 -3px 0 0;
+        overflow-x: hidden;
+        height: 100vh;
+        max-width: 100%;
+        font-family: "Lekton";
+        -webkit-touch-callout: none;
+        -webkit-text-size-adjust:none;
+        -moz-text-size-adjust:none;
+        -ms-text-size-adjust:none;
+        -webkit-text-size-adjust:100%;
+        -moz-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;      
+        user-drag: none; 
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+}
+
+body a:link{
+        color: rgba(240,240,240,1);
+        text-decoration: underline;
+    
+}
+
+body a:visited
+{
+	color: rgba(240,240,240,1);
+	text-decoration: none; 
+}
+
+#RendererMain canvas.vvvv-js-generated-renderer{
+        display:block;
+        position:absolute;
+        z-index:-1;
+        pointer-events: none;
+}
+
+.outer{
+        min-height: 100vh;
+        position: relative;
+}
+.CanvasDiv
+{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.TextDiv
+{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width: 100vw;
+	height: 100vh;
+        background-color: rgba(255,255,255,0);
+}
+
+
+
+h1
+{
+	font-style: bold;
+        font-size: 28px;
+        text-decoration: underline;
+}
+
+h2
+{
+	font-size: 36px;
+}
+
+.statement {
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    top: 70px;
+    text-shadow: 0px 0px 20px rgba(0, 255, 50, 1);
+    color: rgba(0,240,0,1);
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    padding: 15px;
+    z-index: 2;
+    max-width: 900px;
+    border: 0px solid rgba(0,255,50,1);
+    border-radius: 15px;  
+}
+
+.back {
+    position:absolute;
+    left:20px;
+    bottom: 60px;
+    text-shadow: 0px 0px 20px rgba(0, 255, 50, 1);
+    color: rgba(255,255,255,1);
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    padding: 15px;
+    z-index: 2;
+    display:none;
+    max-width: 900px;
+    border: 0px solid rgba(0,255,50,1);
+    border-radius: 15px;
+    
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+
+.logo {
+    position:fixed;
+    top:0%;
+    right: 0%;
+    z-index: 5;
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.logo_button {
+    background-color: rgba(0,0,0,1);
+    width:auto; 
+    float: left;
+    border-radius: 8px;
+}
+
+.menu_buttons{
+    position:fixed;
+    top:0%;
+    left: 0%;
+    z-index: 5;
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display:none;
+}
+
+
+.salad_wrap{
+    -webkit-box-sizing: border-box; /* Safari, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        width: 100%;
+        max-width: 100%;
+}
+
+.button_wrap {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    left: 50%;
+    top: 10%;
+    
+}
+.button {
+    
+    width:33.3%;
+    height: 33.3%;
+
+    z-index: 4;
+    
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+
+
+.pad_left {
+    position: absolute;
+    z-index: 4;
+    height: 100px;
+    width: 100px;   
+    border: 3px solid rgba(0,100,100,1);
+    border-radius: 60px;
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    left: 40px;
+    bottom: 40px;
+}
+.pad_right {
+    position: absolute;
+    z-index: 4;
+    height: 100px;
+    width: 100px;   
+    border: 3px solid rgba(0,100,100,1);
+    border-radius: 60px;
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    right: 40px;
+    bottom: 40px;
+}
+
+.pad {
+    position:relative;
+    width:10px;
+    height: 10px;
+    left:50%;
+    top: 50%;
+    z-index: 4;
+    
+     transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    
+    border: 5px solid rgba(0,255,255,1);
+    border-radius: 15px;
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+#share-buttons {
+       position: absolute;
+       text-align: center;
+       display:block;
+       margin:auto;
+       bottom:0%;
+       left: 0%;
+       z-index: 5;
+       width: 100%;
+       background-color: rgba(30,30,30,1);
+     }  
+     
+     #share-element {
+         display:inline-block ;
+        padding: 5px;
+        -webkit-filter: grayscale(1); /* Webkit */
+        filter: gray; /* IE6-9 */
+        filter: grayscale(1);
+        }  
+        
+        
+.footer_content {display:inline-block ;
+                float:right; padding-left:5px;}

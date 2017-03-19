@@ -1,0 +1,831 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="14400" height="34455">
+  </BOUNDS>
+  <NODE id="548" nodename="Instancer (WebGl Geometry Dynamic)" systemname="Instancer (WebGl Geometry Dynamic)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3045" top="8715" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Geometry" visible="1">
+  </PIN>
+  <PIN pinname="Count" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Semantic" visible="1">
+  </PIN>
+  <PIN pinname="InstanceDivisor" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 1" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 2" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 3" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 4" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 5" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 6" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 7" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|7|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="549" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="330" top="6600" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|offset|,|scale|,|color|,|mm1|,|mm2|,|mm3|,|mm4|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|7|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="550" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4065" top="7080" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|2.5|">
+  </PIN>
+  <PIN pinname="Width" visible="1">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="552" nodename="Buffer (Game Buffer Value)" systemname="Buffer (Game Buffer Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4125" top="7680" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="VectorSize" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="563" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="1650" top="6600" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|15|,|15|,|15|,|1|,|1|,|1|,|1|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|7|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="565" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1710" top="5235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="566" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="1785" top="2415" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|15|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="668" nodename="SceneFile (Game Scene)" systemname="SceneFile (Game Scene)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4800" top="975" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="File Name" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="669" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="4845" top="465" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|animation/BotanyData.json|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="680" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5610" top="2655" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|animation|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="681" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5955" top="1545" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="[ From .." visible="1" values="|1|">
+  </PIN>
+  <PIN pinname=".. To [" visible="1" values="|16|">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="682" nodename="FormatValue (String)" systemname="FormatValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5970" top="2070" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Characters before Comma" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Characters after Comma" visible="1">
+  </PIN>
+  <PIN pinname="Thousands Symbol" visible="1">
+  </PIN>
+  <PIN pinname="Comma Symbol" visible="1">
+  </PIN>
+  <PIN pinname="Leading Zeroes" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="683" nodename="Select (String)" systemname="Select (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4740" top="3255" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Select" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="695" nodename="Cylinder (EX9.Geometry)" systemname="Cylinder (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1095" top="8445" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Radius 1" visible="1" values="|0.03749999999999999|">
+  </PIN>
+  <PIN pinname="Radius 2" visible="1" values="|0.2|">
+  </PIN>
+  <PIN pinname="Length" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Cycles" visible="1">
+  </PIN>
+  <PIN pinname="Caps" visible="1">
+  </PIN>
+  <PIN pinname="Resolution X" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Resolution Y" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="696" nodename="BotanyBuffer (Game Botany Buffer)" systemname="BotanyBuffer (Game Botany Buffer)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5025" top="4575" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Scene" visible="1">
+  </PIN>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Animation Index" visible="1">
+  </PIN>
+  <PIN pinname="Time" visible="1">
+  </PIN>
+  <PIN pinname="Object Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="697" nodename="BillBoardParticles (EX9.Effect)" systemname="BillBoardParticles (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/BillBoardParticles.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="8610" top="10560" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="AnimationTex" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="textureRes" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="699" nodename="Instancer (WebGl Geometry Dynamic)" systemname="Instancer (WebGl Geometry Dynamic)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8985" top="9060" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Geometry" visible="1">
+  </PIN>
+  <PIN pinname="Count" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Semantic" visible="1">
+  </PIN>
+  <PIN pinname="InstanceDivisor" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 1" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 2" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 3" visible="1">
+  </PIN>
+  <PIN pinname="Buffer 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="703" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8145" top="8790" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Resolution X" visible="1">
+  </PIN>
+  <PIN pinname="Resolution Y" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="705" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10260" top="6090" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|50|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|100|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="708" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="9525" top="8310" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|offset|,|leafes|,|index|,|scale|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="710" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="10695" top="8340" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|8|,|1|,|8|,|8|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="711" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11010" top="10140" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="0" values="|Texture|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="712" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="11010" top="9675" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/leafes-join.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="715" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9345" top="10140" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="716" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="9900" top="9765" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.125|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="717" nodename="BotanyInstanced (EX9.Effect)" systemname="BotanyInstanced (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/BotanyInstanced.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="2835" top="10815" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1" values="|0.6415600180625916, 1, 0.5649999976158142, 1|">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1" values="|1, 1, 1, 1|">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="AnimationTex" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="textureRes" visible="1">
+  </PIN>
+  <PIN pinname="stride" visible="1">
+  </PIN>
+  <PIN pinname="frame" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="718" nodename="Buffer (Game Buffer Value)" systemname="Buffer (Game Buffer Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10275" top="7020" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="VectorSize" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="720" nodename="Frac (Value)" systemname="Frac (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10275" top="6555" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="721" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9165" top="7245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="723" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="1920" top="12975" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Layer Out|">
+  </PIN>
+  </NODE>
+  <NODE id="724" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="8325" top="2010" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|PositionBuffer|">
+  </PIN>
+  </NODE>
+  <NODE id="725" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="9780" top="2220" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Count|">
+  </PIN>
+  </NODE>
+  <NODE id="727" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5790" top="3975" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="728" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8145" top="3765" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|16|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="729" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8415" top="4245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="730" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="6480" top="12600" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Layer Leafe|">
+  </PIN>
+  </NODE>
+  <NODE id="731" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7020" top="10185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-0.5000000000000002|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|-0.6000000000000003|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|-0.1000000000000001|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="732" nodename="TransformBuffer (Game Buffer)" systemname="TransformBuffer (Game Buffer)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8115" top="6045" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Translate XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Scale XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Merge" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="733" nodename="Vector (3d Join)" systemname="Vector (3d Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8400" top="5310" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|2.5|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="734" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6195" top="7410" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|0.20999999999999977|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|0.26|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1" values="|12|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="735" nodename="Buffer (Game Buffer Value)" systemname="Buffer (Game Buffer Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5805" top="8355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="VectorSize" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="736" nodename="Vector (4d Join)" systemname="Vector (4d Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5775" top="7860" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="W" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="740" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6015" top="7065" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|0.09999999999999974|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|0.24|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="741" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6930" top="7725" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1" values="|0.019999999999999685|">
+  </PIN>
+  <PIN pinname="Width" visible="1" values="|0.049999999999999996|">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="742" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7500" top="8175" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="743" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7905" top="1455" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Indices|">
+  </PIN>
+  </NODE>
+  <NODE id="744" nodename="Abs (Complex)" systemname="Abs (Complex)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6795" top="2910" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Real" visible="1">
+  </PIN>
+  <PIN pinname="Input Imagiary" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="745" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3375" top="5400" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="746" nodename="WaveShaper (Value)" systemname="WaveShaper (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3390" top="5805" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Shape" visible="1" values="|Sine|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="747" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3435" top="6195" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|2.8|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|3.2|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <LINK srcnodeid="549" srcpinname="Output String" dstnodeid="548" dstpinname="Semantic">
+  </LINK>
+  <LINK srcnodeid="550" srcpinname="Output" dstnodeid="552" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="552" srcpinname="Buffer" dstnodeid="548" dstpinname="Buffer 2">
+  </LINK>
+  <LINK srcnodeid="563" srcpinname="Y Output Value" dstnodeid="548" dstpinname="InstanceDivisor">
+  </LINK>
+  <LINK srcnodeid="566" srcpinname="Y Output Value" dstnodeid="565" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="565" srcpinname="Output" dstnodeid="548" dstpinname="Count">
+  </LINK>
+  <LINK srcnodeid="669" srcpinname="Output String" dstnodeid="668" dstpinname="File Name">
+  </LINK>
+  <LINK srcnodeid="681" srcpinname="Output" dstnodeid="682" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="682" srcpinname="Output" dstnodeid="680" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="680" srcpinname="Output" dstnodeid="683" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="695" srcpinname="Mesh" dstnodeid="548" dstpinname="Geometry">
+  </LINK>
+  <LINK srcnodeid="668" srcpinname="Scene Out" dstnodeid="696" dstpinname="Scene">
+  </LINK>
+  <LINK srcnodeid="566" srcpinname="Y Output Value" dstnodeid="696" dstpinname="Object Count">
+  </LINK>
+  <LINK srcnodeid="699" srcpinname="Mesh" dstnodeid="697" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="703" srcpinname="Mesh" dstnodeid="699" dstpinname="Geometry">
+  </LINK>
+  <LINK srcnodeid="708" srcpinname="Output String" dstnodeid="699" dstpinname="Semantic">
+  </LINK>
+  <LINK srcnodeid="710" srcpinname="Y Output Value" dstnodeid="699" dstpinname="InstanceDivisor">
+  </LINK>
+  <LINK srcnodeid="696" srcpinname="BillboardOut" dstnodeid="699" dstpinname="Buffer 2">
+  </LINK>
+  <LINK srcnodeid="712" srcpinname="Output String" dstnodeid="711" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="711" srcpinname="Texture Out" dstnodeid="697" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="715" srcpinname="Transform Out" dstnodeid="697" dstpinname="Texture Transform">
+  </LINK>
+  <LINK srcnodeid="716" srcpinname="Y Output Value" dstnodeid="715" dstpinname="ScaleX">
+  </LINK>
+  <LINK srcnodeid="716" srcpinname="Y Output Value" dstnodeid="715" dstpinname="ScaleY">
+  </LINK>
+  <LINK srcnodeid="696" srcpinname="Buffer Matrix Row 1" dstnodeid="548" dstpinname="Buffer 4">
+  </LINK>
+  <LINK srcnodeid="696" srcpinname="Buffer Matrix Row 2" dstnodeid="548" dstpinname="Buffer 5">
+  </LINK>
+  <LINK srcnodeid="696" srcpinname="Buffer Matrix Row 3" dstnodeid="548" dstpinname="Buffer 6">
+  </LINK>
+  <LINK srcnodeid="696" srcpinname="Buffer Matrix Row 4" dstnodeid="548" dstpinname="Buffer 7">
+  </LINK>
+  <LINK srcnodeid="548" srcpinname="Mesh" dstnodeid="717" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="718" srcpinname="Buffer" dstnodeid="699" dstpinname="Buffer 3">
+  </LINK>
+  <LINK srcnodeid="705" srcpinname="Output" dstnodeid="720" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="720" srcpinname="Whole Part" dstnodeid="718" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="721" srcpinname="Output" dstnodeid="699" dstpinname="Count">
+  </LINK>
+  <LINK srcnodeid="724" srcpinname="Output Node" dstnodeid="548" dstpinname="Buffer 1">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="565" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="728" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="727" srcpinname="Output" dstnodeid="696" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="550" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="721" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="705" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="552" srcpinname="Buffer" dstnodeid="699" dstpinname="Buffer 4">
+  </LINK>
+  <LINK srcnodeid="680" srcpinname="Output" dstnodeid="727" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="729" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="729" srcpinname="Output" dstnodeid="696" dstpinname="Time">
+  </LINK>
+  <LINK srcnodeid="717" srcpinname="Layer" dstnodeid="723" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="697" srcpinname="Layer" dstnodeid="730" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="731" srcpinname="Transform Out" dstnodeid="697" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="724" srcpinname="Output Node" dstnodeid="732" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="732" srcpinname="Buffer" dstnodeid="699" dstpinname="Buffer 1">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="XYZ" dstnodeid="732" dstpinname="Translate XYZ">
+  </LINK>
+  <LINK srcnodeid="735" srcpinname="Buffer" dstnodeid="548" dstpinname="Buffer 3">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="734" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="736" srcpinname="XYZW" dstnodeid="735" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="Output" dstnodeid="736" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="740" srcpinname="Output" dstnodeid="736" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="740" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="725" srcpinname="Y Output Value" dstnodeid="741" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="741" srcpinname="Output" dstnodeid="736" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="742" srcpinname="Y Output Value" dstnodeid="736" dstpinname="W">
+  </LINK>
+  <LINK srcnodeid="743" srcpinname="Y Output Value" dstnodeid="727" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="745" srcpinname="Output" dstnodeid="746" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="746" srcpinname="Output" dstnodeid="747" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="747" srcpinname="Output" dstnodeid="550" dstpinname="Width">
+  </LINK>
+  </PATCH>
