@@ -1,0 +1,147 @@
+
+/*
+ * Best practices for full screen renderer
+ */
+@font-face {
+	font-family: 'Lekton';
+	src: url(Lekton/Lekton-Regular.ttf);
+        }
+body
+{
+	background-color: rgba(255,255,255,1);
+	margin: 0 -3px 0 0; //this fixes a browser bug that creates useless scrollbars
+	font-family: sans-serif;
+        //overflow:hidden; //prevent scrollbars
+        height: 100vh;
+        font-family: 'Lekton';
+        
+}
+
+#panel {
+    position: fixed;
+    left: 0px;
+    width: 310px;
+    height: 100%;
+    overflow: auto;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+#panel #content {
+    padding: 0px 20px 20px 20px;
+}
+
+#viewer {
+    position: absolute;
+    border: 0px;
+    left: 310px;
+    width: calc(100% - 310px);
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#panel #content .link {
+    color: #2194CE;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+    Regeln
+    Berechnet
+    Animationen
+    Schriftarten
+
+Element {
+
+}
+h2 {
+
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.CanvasDiv
+{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width: 100vw; //100% view width
+	height: 100vh; //100% view height
+        z-index:1
+}
+
+.main{position:absolute;}
+
+.main a:link
+{
+	color: rgba(0,0,0,1);
+	//background-color: rgba(240,50,50,0.9);
+	text-decoration: underline; 
+}
+
+.main a:visited
+{
+	color: rgba(0,0,0,1);
+	//background-color: rgba(240,50,50,0.9);
+	text-decoration: underline; 
+}
+
+.TextDiv
+{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width: 100vw;
+	height: 100vh;
+        background-color: rgba(255,255,255,0);
+	z-index: -1;
+}
+
+
+.tracks
+{
+        position: absolute;
+        border:1px solid rgba(255,0,0,1);
+        padding: 15px;
+        background: none repeat scroll 0% 0% #000;
+        border-radius:30px;
+        color: rgba(240,240,240,1);
+        text-align:justify;
+        width: 40%;
+        height: 80%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        z-index: 3;
+        Transform: matrix(0.0000,0.0000,0.0000,0.0000,0, 0);
+        Transform-origin:center;
+        
+}
+
+.buttons
+{
+        position: absolute;
+        border:1px solid rgba(255,0,0,1);
+        padding: 15px;
+        background: none repeat scroll 0% 0% #000;
+        border-radius:30px;
+        color: rgba(240,240,240,1);
+        text-align:justify;
+        width: 30px;
+        height: 30px;
+        z-index: 3;
+        Transform: matrix(0.0000,0.0000,0.0000,0.0000,0, 0);
+        Transform-origin:center;
+        
+}
