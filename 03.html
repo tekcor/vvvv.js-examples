@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>PerlinGame</title>
+		<title>Instanced Vegetation</title>
   
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css_3d.css" >
@@ -8,12 +8,13 @@
                 <meta name="HandheldFriendly" content="true" />    
 	
 		<script language="JavaScript" src="../vvvv.js/lib/jquery/jquery-1.8.2.min.js"></script>
+                <script language="JavaScript" src="../vvvv.js/lib/require.js"></script>
 		<script language="JavaScript" src="../vvvv.js/vvvv.js"></script>
 		<link rel="Stylesheet" href="../vvvv.js/vvvviewer/vvvv.css"/>
-                <link rel="VVVV" href="patches/root_DynamicTerrain.v4p"/>
+                <link rel="VVVV" href="patches/root_Instanced_Vegetation.v4p"/>
 		<script language="JavaScript">
 			$(document).ready(function() {
-				VVVV.init("../vvvv.js", "full", function() {
+				VVVVContext.init("../vvvv.js", "full", function() {
 					console.log('VVVV.js ready.');
 				 });
 			 });
@@ -30,9 +31,8 @@
 	    <div id="RendererMain"></div>
 		</div>
              
-            <div class="pad_left"> <div class="pad"></div></div>
+             <div class="pad_left"> <div class="pad"></div></div>
              <div class="pad_right"> <div class="pad"></div></div>
-            
             
              
            
