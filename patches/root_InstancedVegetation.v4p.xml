@@ -7,6 +7,8 @@
   </BOUNDS>
   <PIN pinname="Maximum Touch Points" visible="1" values="|2|">
   </PIN>
+  <PIN pinname="Space" visible="1" values="|Document Pixels|">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -34,6 +36,8 @@
   <PIN pinname="Backbuffer Width" visible="1">
   </PIN>
   <PIN pinname="Backbuffer Height" visible="1">
+  </PIN>
+  <PIN pinname="Parent Element" visible="1">
   </PIN>
   <PIN pinname="View" visible="1">
   </PIN>
@@ -134,6 +138,8 @@
   <PIN pinname="MouseXY" visible="1">
   </PIN>
   <PIN pinname="ResXY" visible="1">
+  </PIN>
+  <PIN pinname="Left Mouse Button" visible="1">
   </PIN>
   <PIN pinname="LB" visible="1">
   </PIN>
@@ -296,21 +302,21 @@
   </LINK>
   <LINK srcnodeid="82" srcpinname="ResolutionXY" dstnodeid="154" dstpinname="ResXY">
   </LINK>
-  <LINK srcnodeid="6" srcpinname="Left Button" dstnodeid="154" dstpinname="LB">
-  </LINK>
   <LINK srcnodeid="7" srcpinname="XY" dstnodeid="154" dstpinname="MouseXY">
-  </LINK>
-  <LINK srcnodeid="154" srcpinname="Rpad" dstnodeid="444" dstpinname="Rotate">
-  </LINK>
-  <LINK srcnodeid="154" srcpinname="Lpad" dstnodeid="488" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="488" srcpinname="Output" dstnodeid="444" dstpinname="moveIn">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Layer" dstnodeid="57" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="81" srcpinname="Transform Out" dstnodeid="57" dstpinname="Projection">
   </LINK>
+  <LINK srcnodeid="6" srcpinname="Left Button" dstnodeid="154" dstpinname="LB">
+  </LINK>
+  <LINK srcnodeid="154" srcpinname="Rpad" dstnodeid="444" dstpinname="Rotate">
+  </LINK>
   <LINK srcnodeid="444" srcpinname="View" dstnodeid="57" dstpinname="View">
+  </LINK>
+  <LINK srcnodeid="154" srcpinname="Lpad" dstnodeid="488" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="488" srcpinname="Output" dstnodeid="444" dstpinname="moveIn">
   </LINK>
   <LINK srcnodeid="524" srcpinname="XYZ" dstnodeid="543" dstpinname="Buffer">
   </LINK>

@@ -3,17 +3,17 @@
   <BOUNDS type="Window" width="15435" height="34455">
   </BOUNDS>
   <NODE id="6" nodename="Mouse (System Global)" systemname="Mouse (System Global)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4965" top="14160" width="100" height="100">
+  <BOUNDS type="Node" left="4395" top="14340" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Maximum Touch Points" visible="1" values="|2|">
   </PIN>
-  <PIN pinname="Space" visible="1">
+  <PIN pinname="Space" visible="1" values="|Document Pixels|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="7" nodename="Vector (2d Join)" systemname="Vector (2d Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4950" top="14730" width="100" height="100">
+  <BOUNDS type="Node" left="4050" top="15030" width="100" height="100">
   </BOUNDS>
   <PIN pinname="X" visible="1">
   </PIN>
@@ -23,7 +23,7 @@
   </PIN>
   </NODE>
   <NODE id="57" nodename="Renderer (EX9)" systemname="Renderer (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1530" top="19020" width="100" height="100">
+  <BOUNDS type="Node" left="2880" top="17910" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -49,7 +49,7 @@
   </PIN>
   </NODE>
   <NODE id="59" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1410" top="11940" width="100" height="100">
+  <BOUNDS type="Node" left="2460" top="12090" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -69,7 +69,7 @@
   </PIN>
   </NODE>
   <NODE id="79" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2625" top="14040" width="100" height="100">
+  <BOUNDS type="Node" left="6375" top="15480" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -83,7 +83,7 @@
   </PIN>
   </NODE>
   <NODE id="80" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2790" top="13575" width="100" height="100">
+  <BOUNDS type="Node" left="6540" top="14535" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -95,7 +95,7 @@
   </PIN>
   </NODE>
   <NODE id="81" nodename="Perspective (Transform)" systemname="Perspective (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4219" top="18006" width="100" height="100">
+  <BOUNDS type="Node" left="5869" top="17241" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -109,13 +109,13 @@
   </PIN>
   </NODE>
   <NODE id="82" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2550" top="12690" width="100" height="100">
+  <BOUNDS type="Node" left="5160" top="12690" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="83" nodename="Vector (2d Split)" systemname="Vector (2d Split)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2550" top="13185" width="100" height="100">
+  <BOUNDS type="Node" left="3150" top="13635" width="100" height="100">
   </BOUNDS>
   <PIN pinname="XY" visible="1">
   </PIN>
@@ -129,9 +129,9 @@
   </PIN>
   <PIN pinname="ResXY" visible="1">
   </PIN>
-  <PIN pinname="LB" visible="1" values="|0|,|0|">
-  </PIN>
   <PIN pinname="Left Mouse Button" visible="1">
+  </PIN>
+  <PIN pinname="LB" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -184,28 +184,6 @@
   <PIN pinname="Resolution X" visible="1" values="|15|">
   </PIN>
   <PIN pinname="Resolution Y" visible="1" values="|15|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="545" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7245" top="9450" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Filename" visible="1">
-  </PIN>
-  <PIN pinname="Type" visible="1" values="|Texture|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="546" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="7260" top="8865" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|animation/matrix2_tex1024.png|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -640,6 +618,26 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="709" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6390" top="13350" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="710" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7530" top="15240" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="80" srcpinname="Output" dstnodeid="79" dstpinname="X">
   </LINK>
   <LINK srcnodeid="83" srcpinname="Y" dstnodeid="80" dstpinname="Input">
@@ -662,13 +660,17 @@
   </LINK>
   <LINK srcnodeid="81" srcpinname="Transform Out" dstnodeid="57" dstpinname="Projection">
   </LINK>
+  <LINK srcnodeid="6" srcpinname="X" dstnodeid="7" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Y" dstnodeid="7" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Left Button" dstnodeid="154" dstpinname="Left Mouse Button">
+  </LINK>
   <LINK srcnodeid="444" srcpinname="View" dstnodeid="57" dstpinname="View">
   </LINK>
   <LINK srcnodeid="154" srcpinname="Lpad" dstnodeid="488" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="488" srcpinname="Output" dstnodeid="444" dstpinname="moveIn">
-  </LINK>
-  <LINK srcnodeid="546" srcpinname="Output String" dstnodeid="545" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="549" srcpinname="Output String" dstnodeid="548" dstpinname="Semantic">
   </LINK>
@@ -683,8 +685,6 @@
   <LINK srcnodeid="566" srcpinname="Y Output Value" dstnodeid="565" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="565" srcpinname="Output" dstnodeid="548" dstpinname="Count">
-  </LINK>
-  <LINK srcnodeid="545" srcpinname="Texture Out" dstnodeid="557" dstpinname="AnimationTex">
   </LINK>
   <LINK srcnodeid="669" srcpinname="Output String" dstnodeid="668" dstpinname="File Name">
   </LINK>
@@ -776,10 +776,8 @@
   </LINK>
   <LINK srcnodeid="708" srcpinname="Y Output Value" dstnodeid="444" dstpinname="Rotate">
   </LINK>
-  <LINK srcnodeid="6" srcpinname="X" dstnodeid="7" dstpinname="X">
+  <LINK srcnodeid="82" srcpinname="ResolutionXY" dstnodeid="709" dstpinname="Y Input Value">
   </LINK>
-  <LINK srcnodeid="6" srcpinname="Y" dstnodeid="7" dstpinname="Y">
-  </LINK>
-  <LINK srcnodeid="6" srcpinname="Left Button" dstnodeid="154" dstpinname="Left Mouse Button">
+  <LINK srcnodeid="6" srcpinname="X" dstnodeid="710" dstpinname="Y Input Value">
   </LINK>
   </PATCH>
