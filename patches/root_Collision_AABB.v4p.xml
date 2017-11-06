@@ -359,6 +359,10 @@
   </PIN>
   <PIN pinname="Update Index" visible="1">
   </PIN>
+  <PIN pinname="Min Translation Distance" visible="1">
+  </PIN>
+  <PIN pinname="Normals of Colliding Box" visible="1">
+  </PIN>
   <PIN pinname="Update" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
@@ -439,7 +443,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Width" visible="1" values="|60|">
+  <PIN pinname="Width" visible="1" values="|59|">
   </PIN>
   <PIN pinname="Alignment" visible="1">
   </PIN>
@@ -521,7 +525,7 @@
   <NODE id="808" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="13965" top="9285" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|31|">
+  <PIN pinname="Y Input Value" visible="1" values="|36|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -557,7 +561,7 @@
   <NODE id="811" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="12135" top="12180" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input" visible="1" values="|14.840000000000003|">
+  <PIN pinname="Input" visible="1" values="|14|">
   </PIN>
   <PIN pinname="Width" visible="1" values="|0|">
   </PIN>
@@ -671,13 +675,13 @@
   </PIN>
   <PIN pinname="CollisionNormals" visible="1">
   </PIN>
+  <PIN pinname="Elasticity" visible="1">
+  </PIN>
   <PIN pinname="CollisionTime" visible="1">
   </PIN>
   <PIN pinname="ResponseType" visible="1" values="|deflect|">
   </PIN>
   <PIN pinname="Collide" visible="1">
-  </PIN>
-  <PIN pinname="Elasticity" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -685,7 +689,7 @@
   <NODE id="822" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="3720" top="2085" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Period" visible="1" values="|0.5|">
+  <PIN pinname="Period" visible="1" values="|6|">
   </PIN>
   <PIN pinname="Pause" visible="1" values="|0|">
   </PIN>
@@ -711,7 +715,7 @@
   </PIN>
   <PIN pinname="Factor" visible="1">
   </PIN>
-  <PIN pinname="Phase" visible="1">
+  <PIN pinname="Phase" visible="1" values="|0.36|">
   </PIN>
   <PIN pinname="Spread Count" visible="1">
   </PIN>
@@ -741,9 +745,9 @@
   <NODE id="829" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="1875" top="255" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Period" visible="1" values="|0.6|">
+  <PIN pinname="Period" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Pause" visible="1">
+  <PIN pinname="Pause" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Reverse" visible="1">
   </PIN>
@@ -779,7 +783,7 @@
   </PIN>
   </NODE>
   <NODE id="833" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7890" top="4305" width="100" height="100">
+  <BOUNDS type="Node" left="13800" top="4170" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -791,7 +795,7 @@
   </PIN>
   </NODE>
   <NODE id="836" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7875" top="5145" width="0" height="0">
+  <BOUNDS type="Box" left="13785" top="5010" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -867,7 +871,7 @@
   </PIN>
   </NODE>
   <NODE id="843" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7875" top="4680" width="100" height="100">
+  <BOUNDS type="Node" left="13785" top="4545" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1021,7 +1025,7 @@
   <NODE id="873" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="2970" top="4545" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1036,6 +1040,140 @@
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|MaxAge|">
+  </PIN>
+  </NODE>
+  <NODE id="875" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8850" top="8745" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="876" nodename="Vector (3d Split)" systemname="Vector (3d Split)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8910" top="9705" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="877" nodename="Queue (Spreads)" systemname="Queue (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8550" top="10545" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Insert" visible="1">
+  </PIN>
+  <PIN pinname="Frame Count" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="878" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8535" top="11655" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|10|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="880" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8625" top="3420" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Default 1" visible="1">
+  </PIN>
+  <PIN pinname="Initialize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="881" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8610" top="3795" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="882" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11175" top="3285" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Default 1" visible="1">
+  </PIN>
+  <PIN pinname="Initialize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="883" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11175" top="3975" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="884" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="11100" top="4425" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Normals of Colliding Box|">
+  </PIN>
+  </NODE>
+  <NODE id="885" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8610" top="4380" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Minimum Translation Distance|">
+  </PIN>
+  </NODE>
+  <NODE id="886" nodename="Vector (3d Split)" systemname="Vector (3d Split)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13095" top="14355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="887" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="13365" top="14985" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|100|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="888" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3720" top="7770" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="80" srcpinname="Output" dstnodeid="79" dstpinname="X">
@@ -1260,8 +1398,6 @@
   </LINK>
   <LINK srcnodeid="839" srcpinname="Output" dstnodeid="838" dstpinname="Phase">
   </LINK>
-  <LINK srcnodeid="829" srcpinname="Output" dstnodeid="824" dstpinname="Phase">
-  </LINK>
   <LINK srcnodeid="847" srcpinname="Y Output Value" dstnodeid="795" dstpinname="Initial Velocity">
   </LINK>
   <LINK srcnodeid="824" srcpinname="Output Y" dstnodeid="825" dstpinname="Z">
@@ -1283,5 +1419,37 @@
   <LINK srcnodeid="734" srcpinname="Mouse Wheel" dstnodeid="787" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="874" srcpinname="Y Output Value" dstnodeid="795" dstpinname="Max Age">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="Minimum Translation Distance" dstnodeid="875" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="875" srcpinname="Y Output Value" dstnodeid="876" dstpinname="XYZ">
+  </LINK>
+  <LINK srcnodeid="876" srcpinname="Y" dstnodeid="877" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="Collide" dstnodeid="877" dstpinname="Insert">
+  </LINK>
+  <LINK srcnodeid="877" srcpinname="Output" dstnodeid="878" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="880" srcpinname="Output 1" dstnodeid="881" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="Minimum Translation Distance" dstnodeid="880" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="882" srcpinname="Output 1" dstnodeid="883" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="883" srcpinname="Output" dstnodeid="884" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="NormalsOut" dstnodeid="882" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="884" srcpinname="Y Output Value" dstnodeid="795" dstpinname="Normals of Colliding Box">
+  </LINK>
+  <LINK srcnodeid="881" srcpinname="Output" dstnodeid="885" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="885" srcpinname="Y Output Value" dstnodeid="795" dstpinname="Min Translation Distance">
+  </LINK>
+  <LINK srcnodeid="805" srcpinname="Output" dstnodeid="886" dstpinname="XYZ">
+  </LINK>
+  <LINK srcnodeid="886" srcpinname="Y" dstnodeid="887" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="888" srcpinname="Y Output Value" dstnodeid="793" dstpinname="Box1Scale">
   </LINK>
   </PATCH>

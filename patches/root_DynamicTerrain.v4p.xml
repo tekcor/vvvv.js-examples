@@ -147,7 +147,7 @@
   </PIN>
   </NODE>
   <NODE id="815" nodename="Mouse (System Global)" systemname="Mouse (System Global)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3060" top="12585" width="100" height="100">
+  <BOUNDS type="Node" left="3105" top="15795" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Maximum Touch Points" visible="1" values="|2|">
   </PIN>
@@ -157,7 +157,7 @@
   </PIN>
   </NODE>
   <NODE id="816" nodename="Vector (2d Join)" systemname="Vector (2d Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3075" top="13065" width="100" height="100">
+  <BOUNDS type="Node" left="3120" top="16275" width="100" height="100">
   </BOUNDS>
   <PIN pinname="X" visible="1">
   </PIN>
@@ -167,7 +167,7 @@
   </PIN>
   </NODE>
   <NODE id="817" nodename="Renderer (EX9)" systemname="Renderer (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="840" top="15915" width="100" height="100">
+  <BOUNDS type="Node" left="885" top="19125" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -193,7 +193,7 @@
   </PIN>
   </NODE>
   <NODE id="818" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="870" top="11610" width="100" height="100">
+  <BOUNDS type="Node" left="915" top="14820" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -215,7 +215,7 @@
   </PIN>
   </NODE>
   <NODE id="819" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1335" top="14145" width="100" height="100">
+  <BOUNDS type="Node" left="1380" top="17355" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -229,7 +229,7 @@
   </PIN>
   </NODE>
   <NODE id="820" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1500" top="13680" width="100" height="100">
+  <BOUNDS type="Node" left="1545" top="16890" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -241,7 +241,7 @@
   </PIN>
   </NODE>
   <NODE id="821" nodename="Perspective (Transform)" systemname="Perspective (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3679" top="14796" width="100" height="100">
+  <BOUNDS type="Node" left="3724" top="18006" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -255,13 +255,13 @@
   </PIN>
   </NODE>
   <NODE id="822" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1260" top="12795" width="100" height="100">
+  <BOUNDS type="Node" left="1305" top="16005" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="823" nodename="Vector (2d Split)" systemname="Vector (2d Split)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1260" top="13290" width="100" height="100">
+  <BOUNDS type="Node" left="1305" top="16500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="XY" visible="1">
   </PIN>
@@ -273,7 +273,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|0.25|">
+  <PIN pinname="X" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -283,7 +283,7 @@
   </PIN>
   </NODE>
   <NODE id="825" nodename="./pad.v4p" systemname="./pad" filename="./pad.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2715" top="13635" width="100" height="100">
+  <BOUNDS type="Node" left="2760" top="16845" width="100" height="100">
   </BOUNDS>
   <PIN pinname="MouseXY" visible="1">
   </PIN>
@@ -307,7 +307,7 @@
   </PIN>
   </NODE>
   <NODE id="836" nodename="./camera_ego.v4p" systemname="./camera_ego" filename="./camera_ego.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2250" top="14865" width="100" height="100">
+  <BOUNDS type="Node" left="2295" top="18075" width="100" height="100">
   </BOUNDS>
   <PIN pinname="moveIn" visible="1">
   </PIN>
@@ -417,7 +417,7 @@
   </PIN>
   </NODE>
   <NODE id="865" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2745" top="14160" width="100" height="100">
+  <BOUNDS type="Node" left="2790" top="17370" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -591,7 +591,7 @@
   </PIN>
   </NODE>
   <NODE id="918" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="4320" top="13800" width="0" height="0">
+  <BOUNDS type="Box" left="4365" top="17010" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|-18|">
   </PIN>
@@ -822,7 +822,7 @@ void main(void) {
   </PIN>
   </NODE>
   <NODE id="932" nodename="HeightMap2 (EX9.Effect)" systemname="HeightMap2 (EX9.Effect)" filename="./HeightMap2.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="300" top="8655" width="8370" height="100">
+  <BOUNDS type="Node" left="300" top="8655" width="8265" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -855,6 +855,122 @@ void main(void) {
   <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Texture 2" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="933" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4095" top="18720" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Default 1" visible="1">
+  </PIN>
+  <PIN pinname="Initialize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="934" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2835" top="270" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="935" nodename="HeightMap (Buffer Geometry)" systemname="HeightMap (Buffer Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5010" top="11460" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Resolution" visible="1">
+  </PIN>
+  <PIN pinname="Scale" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="936" nodename="SceneFile (Game Scene)" systemname="SceneFile (Game Scene)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5100" top="9930" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="File Name" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="940" nodename="PhongDirectional (EX9.Effect)" systemname="PhongDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/PhongDirectional.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="1920" top="13395" width="6135" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="941" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5340" top="11055" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|126|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="943" nodename="TogEdge (Animation)" systemname="TogEdge (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6705" top="11085" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="944" nodename="TogEdge (Animation)" systemname="TogEdge (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6945" top="10245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="945" nodename="ElementBuffer (Game Scene)" systemname="ElementBuffer (Game Scene)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4875" top="10605" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Scene" visible="1">
+  </PIN>
+  <PIN pinname="Selector" visible="1" values="|terrain|">
+  </PIN>
+  <PIN pinname="Update" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -905,9 +1021,15 @@ void main(void) {
   </LINK>
   <LINK srcnodeid="818" srcpinname="Layer" dstnodeid="817" dstpinname="Layers">
   </LINK>
+  <LINK srcnodeid="811" srcpinname="Y Output Value" dstnodeid="812" dstpinname="PositionXYZ">
+  </LINK>
+  <LINK srcnodeid="821" srcpinname="Transform Out" dstnodeid="817" dstpinname="Projection">
+  </LINK>
   <LINK srcnodeid="815" srcpinname="Left Button" dstnodeid="825" dstpinname="LB">
   </LINK>
   <LINK srcnodeid="825" srcpinname="Rpad" dstnodeid="836" dstpinname="Rotate">
+  </LINK>
+  <LINK srcnodeid="836" srcpinname="View" dstnodeid="817" dstpinname="View">
   </LINK>
   <LINK srcnodeid="872" srcpinname="Layer" dstnodeid="818" dstpinname="Layer 6">
   </LINK>
@@ -959,8 +1081,6 @@ void main(void) {
   </LINK>
   <LINK srcnodeid="914" srcpinname="Y Output Value" dstnodeid="906" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="917" srcpinname="XYZ" dstnodeid="811" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="918" srcpinname="Y Output Value" dstnodeid="836" dstpinname="y">
   </LINK>
   <LINK srcnodeid="794" srcpinname="Output" dstnodeid="919" dstpinname="Input String">
@@ -975,8 +1095,6 @@ void main(void) {
   </LINK>
   <LINK srcnodeid="848" srcpinname="Transform Out" dstnodeid="932" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="827" srcpinname="Mesh" dstnodeid="932" dstpinname="Mesh">
-  </LINK>
   <LINK srcnodeid="923" srcpinname="Y Output Value" dstnodeid="932" dstpinname="vertexCount">
   </LINK>
   <LINK srcnodeid="926" srcpinname="Y Output Value" dstnodeid="932" dstpinname="deformAmount">
@@ -987,14 +1105,40 @@ void main(void) {
   </LINK>
   <LINK srcnodeid="925" srcpinname="Texture Out" dstnodeid="932" dstpinname="Texture">
   </LINK>
-  <LINK srcnodeid="932" srcpinname="Layer" dstnodeid="818" dstpinname="Layer 1">
-  </LINK>
   <LINK srcnodeid="846" srcpinname="Render State Out" dstnodeid="932" dstpinname="Render State">
   </LINK>
-  <LINK srcnodeid="811" srcpinname="Y Output Value" dstnodeid="812" dstpinname="PositionXYZ">
+  <LINK srcnodeid="836" srcpinname="Translation" dstnodeid="933" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="836" srcpinname="View" dstnodeid="817" dstpinname="View">
+  <LINK srcnodeid="933" srcpinname="Output 1" dstnodeid="934" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="821" srcpinname="Transform Out" dstnodeid="817" dstpinname="Projection">
+  <LINK srcnodeid="934" srcpinname="Output" dstnodeid="811" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="909" srcpinname="Output String" dstnodeid="936" dstpinname="File Name">
+  </LINK>
+  <LINK srcnodeid="935" srcpinname="Mesh" dstnodeid="940" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="848" srcpinname="Transform Out" dstnodeid="940" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="846" srcpinname="Render State Out" dstnodeid="940" dstpinname="Render State">
+  </LINK>
+  <LINK srcnodeid="922" srcpinname="XYZ" dstnodeid="940" dstpinname="Light Direction XYZ">
+  </LINK>
+  <LINK srcnodeid="827" srcpinname="Mesh" dstnodeid="932" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="940" srcpinname="Layer" dstnodeid="818" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="941" srcpinname="Y Output Value" dstnodeid="935" dstpinname="Resolution">
+  </LINK>
+  <LINK srcnodeid="943" srcpinname="Up Edge" dstnodeid="935" dstpinname="Update">
+  </LINK>
+  <LINK srcnodeid="936" srcpinname="Success" dstnodeid="944" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="944" srcpinname="Up Edge" dstnodeid="943" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="936" srcpinname="Scene Out" dstnodeid="945" dstpinname="Scene">
+  </LINK>
+  <LINK srcnodeid="945" srcpinname="Buffer" dstnodeid="935" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="944" srcpinname="Up Edge" dstnodeid="945" dstpinname="Update">
   </LINK>
   </PATCH>
