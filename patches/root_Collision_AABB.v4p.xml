@@ -257,7 +257,7 @@
   </PIN>
   </NODE>
   <NODE id="787" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="4425" top="17730" width="0" height="0">
+  <BOUNDS type="Box" left="4500" top="16545" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -689,7 +689,7 @@
   <NODE id="822" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="3720" top="2085" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Period" visible="1" values="|6|">
+  <PIN pinname="Period" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Pause" visible="1" values="|0|">
   </PIN>
@@ -709,13 +709,13 @@
   </PIN>
   <PIN pinname="Input Y" visible="1">
   </PIN>
-  <PIN pinname="Width" visible="1">
+  <PIN pinname="Width" visible="1" values="|2|">
   </PIN>
-  <PIN pinname="Height" visible="1">
+  <PIN pinname="Height" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Factor" visible="1">
   </PIN>
-  <PIN pinname="Phase" visible="1" values="|0.36|">
+  <PIN pinname="Phase" visible="1">
   </PIN>
   <PIN pinname="Spread Count" visible="1">
   </PIN>
@@ -747,7 +747,7 @@
   </BOUNDS>
   <PIN pinname="Period" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Pause" visible="1" values="|1|">
+  <PIN pinname="Pause" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Reverse" visible="1">
   </PIN>
@@ -923,7 +923,7 @@
   <NODE id="848" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="315" top="2460" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|,|0|,|0|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|3|">
   </PIN>
@@ -1176,6 +1176,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="890" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4440" top="17355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|12|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="80" srcpinname="Output" dstnodeid="79" dstpinname="X">
   </LINK>
   <LINK srcnodeid="83" srcpinname="Y" dstnodeid="80" dstpinname="Input">
@@ -1227,8 +1239,6 @@
   <LINK srcnodeid="730" srcpinname="Transform Out" dstnodeid="57" dstpinname="View">
   </LINK>
   <LINK srcnodeid="731" srcpinname="Transform Out" dstnodeid="730" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="787" srcpinname="Y Output Value" dstnodeid="731" dstpinname="Z">
   </LINK>
   <LINK srcnodeid="790" srcpinname="Mesh" dstnodeid="791" dstpinname="Mesh">
   </LINK>
@@ -1451,5 +1461,11 @@
   <LINK srcnodeid="886" srcpinname="Y" dstnodeid="887" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="888" srcpinname="Y Output Value" dstnodeid="793" dstpinname="Box1Scale">
+  </LINK>
+  <LINK srcnodeid="787" srcpinname="Y Output Value" dstnodeid="890" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="890" srcpinname="Output" dstnodeid="731" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="829" srcpinname="Output" dstnodeid="824" dstpinname="Phase">
   </LINK>
   </PATCH>
