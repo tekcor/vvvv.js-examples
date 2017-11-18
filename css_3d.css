@@ -39,6 +39,7 @@ body
         user-drag: none; 
         -moz-user-select: none;
         -webkit-user-drag: none;
+        overflow: hidden;
 }
 
 body a:link{
