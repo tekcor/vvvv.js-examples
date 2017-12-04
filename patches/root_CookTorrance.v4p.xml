@@ -83,7 +83,7 @@
   </PIN>
   </NODE>
   <NODE id="729" nodename="Vector (3d Join)" systemname="Vector (3d Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6600" top="7650" width="100" height="100">
+  <BOUNDS type="Node" left="5250" top="7815" width="100" height="100">
   </BOUNDS>
   <PIN pinname="X" visible="1">
   </PIN>
@@ -185,7 +185,7 @@
   </PIN>
   </NODE>
   <NODE id="742" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="2115" top="8775" width="100" height="100">
+  <BOUNDS type="Node" left="2100" top="8775" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -275,7 +275,7 @@
   </PIN>
   </NODE>
   <NODE id="750" nodename="Normalize (3d Vector)" systemname="Normalize (3d Vector)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6510" top="8115" width="100" height="100">
+  <BOUNDS type="Node" left="5160" top="8280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="XYZ" visible="1">
   </PIN>
@@ -283,7 +283,7 @@
   </PIN>
   </NODE>
   <NODE id="751" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5280" top="5445" width="100" height="100">
+  <BOUNDS type="Node" left="7935" top="4455" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -293,7 +293,7 @@
   </PIN>
   </NODE>
   <NODE id="752" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5250" top="4920" width="0" height="0">
+  <BOUNDS type="Box" left="7905" top="3930" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -433,7 +433,7 @@
   </PIN>
   </NODE>
   <NODE id="766" nodename="CircularSpread (Spreads)" systemname="CircularSpread (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6870" top="7170" width="100" height="100">
+  <BOUNDS type="Node" left="5520" top="7335" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input X" visible="1">
   </PIN>
@@ -453,7 +453,7 @@
   </PIN>
   </NODE>
   <NODE id="767" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8025" top="6135" width="100" height="100">
+  <BOUNDS type="Node" left="6675" top="6660" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Period" visible="1" values="|10|">
   </PIN>
@@ -469,7 +469,7 @@
   </PIN>
   </NODE>
   <NODE id="768" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7395" top="6840" width="0" height="0">
+  <BOUNDS type="Box" left="6045" top="7005" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|17|">
   </PIN>
@@ -551,7 +551,7 @@
   </PIN>
   </NODE>
   <NODE id="774" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7890" top="7770" width="0" height="0">
+  <BOUNDS type="Box" left="7425" top="7350" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|-6|">
   </PIN>
@@ -676,6 +676,76 @@
   <PIN pinname="Descriptive Name" visible="0" values="|refraction_amount|">
   </PIN>
   </NODE>
+  <NODE id="791" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
+  <BOUNDS type="Node" left="825" top="9585" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="792" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8805" top="5760" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="796" nodename="Multiply (Transform)" systemname="Multiply (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9990" top="13680" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In 1" visible="1">
+  </PIN>
+  <PIN pinname="Transform In 2" visible="1">
+  </PIN>
+  <PIN pinname="Transform In Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="797" nodename="Inverse (Transform)" systemname="Inverse (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9660" top="14475" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="Source" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="798" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10035" top="5640" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="XYZ" visible="1" values="|100|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="799" nodename="Skybox (EX9.Effect)" systemname="Skybox (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/Skybox.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="8880" top="6990" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="posCam" visible="1">
+  </PIN>
+  <PIN pinname="skybox" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="80" srcpinname="Output" dstnodeid="79" dstpinname="X">
   </LINK>
   <LINK srcnodeid="83" srcpinname="Y" dstnodeid="80" dstpinname="Input">
@@ -790,6 +860,8 @@
   </LINK>
   <LINK srcnodeid="775" srcpinname="Mesh" dstnodeid="742" dstpinname="Mesh">
   </LINK>
+  <LINK srcnodeid="781" srcpinname="XYZ" dstnodeid="742" dstpinname="CamPos">
+  </LINK>
   <LINK srcnodeid="787" srcpinname="Y Output Value" dstnodeid="731" dstpinname="Z">
   </LINK>
   <LINK srcnodeid="787" srcpinname="Y Output Value" dstnodeid="780" dstpinname="Z UnTransformed">
@@ -798,10 +870,24 @@
   </LINK>
   <LINK srcnodeid="789" srcpinname="Y Output Value" dstnodeid="742" dstpinname="refract amount">
   </LINK>
+  <LINK srcnodeid="791" srcpinname="Layer" dstnodeid="57" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="81" srcpinname="Transform Out" dstnodeid="796" dstpinname="Transform In 1">
+  </LINK>
+  <LINK srcnodeid="730" srcpinname="Transform Out" dstnodeid="796" dstpinname="Transform In 2">
+  </LINK>
+  <LINK srcnodeid="796" srcpinname="Transform Out" dstnodeid="797" dstpinname="Source">
+  </LINK>
+  <LINK srcnodeid="798" srcpinname="Transform Out" dstnodeid="799" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="781" srcpinname="XYZ" dstnodeid="799" dstpinname="posCam">
+  </LINK>
+  <LINK srcnodeid="751" srcpinname="Texture Out" dstnodeid="799" dstpinname="skybox">
+  </LINK>
+  <LINK srcnodeid="799" srcpinname="Layer" dstnodeid="791" dstpinname="Layer 2">
+  </LINK>
   <LINK srcnodeid="742" srcpinname="Layer" dstnodeid="791" dstpinname="Layer 1">
   </LINK>
-  <LINK srcnodeid="742" srcpinname="Layer" dstnodeid="57" dstpinname="Layers">
-  </LINK>
-  <LINK srcnodeid="781" srcpinname="XYZ" dstnodeid="742" dstpinname="CamPos">
+  <LINK srcnodeid="792" srcpinname="Mesh" dstnodeid="799" dstpinname="Mesh">
   </LINK>
   </PATCH>
