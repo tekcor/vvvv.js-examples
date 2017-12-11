@@ -351,7 +351,7 @@
   </PIN>
   <PIN pinname="Antialiasing" visible="1">
   </PIN>
-  <PIN pinname="Background Color" visible="1" values="|0.6629999876022339, 0.6629999876022339, 0.6629999876022339, 1|">
+  <PIN pinname="Background Color" visible="1" values="|0, 0, 0, 1|">
   </PIN>
   <PIN pinname="Backbuffer Width" visible="1">
   </PIN>
@@ -451,7 +451,7 @@
   </PIN>
   <PIN pinname="lumInfluence" visible="1" values="|0.6000000000000003|">
   </PIN>
-  <PIN pinname="AOfactor" visible="1" values="|1|">
+  <PIN pinname="AOfactor" visible="1" values="|2|">
   </PIN>
   <PIN pinname="bgl RenderedTexture" visible="1">
   </PIN>
@@ -616,6 +616,154 @@
   <PIN pinname="Descriptive Name" visible="0" values="|Depth Texture|">
   </PIN>
   </NODE>
+  <NODE id="67" nodename="FPS (Debug PerfMeter)" systemname="FPS (Debug PerfMeter)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6855" top="14070" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="68" nodename="Queue (Spreads)" systemname="Queue (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7230" top="14610" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Insert" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Frame Count" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="69" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7200" top="15075" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="70" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7455" top="15480" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Inputs Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="71" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7455" top="13980" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="72" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7050" top="15945" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="73" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6540" top="17745" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|fps|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="74" nodename="FormatValue (String)" systemname="FormatValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7455" top="16710" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Characters before Comma" visible="1">
+  </PIN>
+  <PIN pinname="Characters after Comma" visible="1">
+  </PIN>
+  <PIN pinname="Thousands Symbol" visible="1">
+  </PIN>
+  <PIN pinname="Comma Symbol" visible="1">
+  </PIN>
+  <PIN pinname="Leading Zeroes" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="75" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6345" top="16425" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|position|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|absolute|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="76" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6315" top="16905" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|top|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0px|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="77" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6315" top="17370" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|left|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0px|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="78" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7110" top="17265" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|fps |">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="6" srcpinname="X" dstnodeid="1" dstpinname="Backbuffer Width">
   </LINK>
   <LINK srcnodeid="6" srcpinname="Y" dstnodeid="1" dstpinname="Backbuffer Height">
@@ -737,5 +885,29 @@
   <LINK srcnodeid="48" srcpinname="Texture Out" dstnodeid="66" dstpinname="Input Node">
   </LINK>
   <LINK srcnodeid="66" srcpinname="Output Node" dstnodeid="49" dstpinname="bgl DepthTexture">
+  </LINK>
+  <LINK srcnodeid="67" srcpinname="FPS" dstnodeid="68" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="71" srcpinname="Y Output Value" dstnodeid="68" dstpinname="Frame Count">
+  </LINK>
+  <LINK srcnodeid="68" srcpinname="Output" dstnodeid="69" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="69" srcpinname="Output" dstnodeid="70" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="71" srcpinname="Y Output Value" dstnodeid="70" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="70" srcpinname="Output" dstnodeid="72" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="77" srcpinname="Style Out" dstnodeid="73" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="78" srcpinname="Output" dstnodeid="73" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="70" srcpinname="Output" dstnodeid="74" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="75" srcpinname="Style Out" dstnodeid="76" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="76" srcpinname="Style Out" dstnodeid="77" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="78" dstpinname="Input 2">
   </LINK>
   </PATCH>
