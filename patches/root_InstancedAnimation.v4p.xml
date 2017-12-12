@@ -789,9 +789,9 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|left|">
+  <PIN pinname="Property Name" visible="1" values="|right|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|0px|">
+  <PIN pinname="Property Value" visible="1" values="|10px|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>

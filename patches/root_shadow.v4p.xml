@@ -1056,68 +1056,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="|LightPos Z|">
   </PIN>
   </NODE>
-  <NODE id="176" nodename="FPS (Debug PerfMeter)" systemname="FPS (Debug PerfMeter)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3675" top="19935" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="178" nodename="Queue (Spreads)" systemname="Queue (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4050" top="20475" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Insert" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Frame Count" visible="1">
-  </PIN>
-  <PIN pinname="Reset" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="179" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4020" top="20940" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Bin Size" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="180" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4275" top="21345" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Inputs Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="181" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="4275" top="19845" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|8|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="182" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="3870" top="21810" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="183" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="4305" top="12210" width="100" height="100">
   </BOUNDS>
@@ -1238,8 +1176,60 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="193" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3360" top="23610" width="100" height="100">
+  <NODE id="207" nodename="FPS (Debug PerfMeter)" systemname="FPS (Debug PerfMeter)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5115" top="20340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="208" nodename="Queue (Spreads)" systemname="Queue (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5115" top="20850" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Insert" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Frame Count" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="209" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5115" top="21375" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="210" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5130" top="21765" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Inputs Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="211" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5115" top="22245" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="212" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4230" top="23760" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1256,8 +1246,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="194" nodename="FormatValue (String)" systemname="FormatValue (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4275" top="22575" width="100" height="100">
+  <NODE id="213" nodename="FormatValue (String)" systemname="FormatValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5145" top="22725" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1274,8 +1264,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="200" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3165" top="22290" width="100" height="100">
+  <NODE id="214" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4035" top="22440" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1286,8 +1276,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="203" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3135" top="22770" width="100" height="100">
+  <NODE id="215" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4005" top="22920" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1298,20 +1288,20 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="204" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3135" top="23235" width="100" height="100">
+  <NODE id="216" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4005" top="23385" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|left|">
+  <PIN pinname="Property Name" visible="1" values="|right|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|0px|">
+  <PIN pinname="Property Value" visible="1" values="|10|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="206" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3930" top="23130" width="100" height="100">
+  <NODE id="217" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4800" top="23280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -1524,18 +1514,6 @@
   </LINK>
   <LINK srcnodeid="170" srcpinname="Y Output Value" dstnodeid="134" dstpinname="X">
   </LINK>
-  <LINK srcnodeid="176" srcpinname="FPS" dstnodeid="178" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="178" srcpinname="Output" dstnodeid="179" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="179" srcpinname="Output" dstnodeid="180" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="181" srcpinname="Y Output Value" dstnodeid="178" dstpinname="Frame Count">
-  </LINK>
-  <LINK srcnodeid="181" srcpinname="Y Output Value" dstnodeid="180" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="180" srcpinname="Output" dstnodeid="182" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="184" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Transform Out" dstnodeid="183" dstpinname="Transform In">
@@ -1572,16 +1550,24 @@
   </LINK>
   <LINK srcnodeid="192" srcpinname="Output" dstnodeid="60" dstpinname="Y Input Value">
   </LINK>
-  <LINK srcnodeid="180" srcpinname="Output" dstnodeid="194" dstpinname="Input">
+  <LINK srcnodeid="207" srcpinname="FPS" dstnodeid="208" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="200" srcpinname="Style Out" dstnodeid="203" dstpinname="Style In">
+  <LINK srcnodeid="208" srcpinname="Output" dstnodeid="209" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="203" srcpinname="Style Out" dstnodeid="204" dstpinname="Style In">
+  <LINK srcnodeid="209" srcpinname="Output" dstnodeid="210" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="204" srcpinname="Style Out" dstnodeid="193" dstpinname="Style In">
+  <LINK srcnodeid="210" srcpinname="Output" dstnodeid="211" dstpinname="Y Input Value">
   </LINK>
-  <LINK srcnodeid="194" srcpinname="Output" dstnodeid="206" dstpinname="Input 2">
+  <LINK srcnodeid="216" srcpinname="Style Out" dstnodeid="212" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="206" srcpinname="Output" dstnodeid="193" dstpinname="Text">
+  <LINK srcnodeid="217" srcpinname="Output" dstnodeid="212" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="211" srcpinname="Y Output Value" dstnodeid="213" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="214" srcpinname="Style Out" dstnodeid="215" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="215" srcpinname="Style Out" dstnodeid="216" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="213" srcpinname="Output" dstnodeid="217" dstpinname="Input 2">
   </LINK>
   </PATCH>

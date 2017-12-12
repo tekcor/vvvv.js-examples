@@ -153,7 +153,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|3|">
+  <PIN pinname="Input 2" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -699,9 +699,9 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|left|">
+  <PIN pinname="Property Name" visible="1" values="|right|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|0px|">
+  <PIN pinname="Property Value" visible="1" values="|10|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -963,7 +963,7 @@
   <NODE id="230" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="210" top="2895" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  <PIN pinname="Y Input Value" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1361,7 +1361,7 @@
   </PIN>
   <PIN pinname="Phase" visible="1">
   </PIN>
-  <PIN pinname="Spread Count" visible="1" values="|10|">
+  <PIN pinname="Spread Count" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
