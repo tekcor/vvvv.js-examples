@@ -629,6 +629,10 @@
   </PIN>
   <PIN pinname="skybox" visible="1">
   </PIN>
+  <PIN pinname="cube size" visible="1" values="|256|">
+  </PIN>
+  <PIN pinname="lod" visible="1" values="|1|">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
