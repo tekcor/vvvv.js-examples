@@ -1729,6 +1729,22 @@
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|8|">
   </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="522" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2595" top="17100" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="523" nodename="Vector (2d Split)" systemname="Vector (2d Split)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2595" top="17595" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="XY" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -2036,16 +2052,18 @@
   </LINK>
   <LINK srcnodeid="521" srcpinname="Projection" dstnodeid="42" dstpinname="Projection">
   </LINK>
-  <LINK srcnodeid="521" srcpinname="ResolutionX" dstnodeid="1" dstpinname="Backbuffer Width">
-  </LINK>
-  <LINK srcnodeid="521" srcpinname="ResolutionY" dstnodeid="1" dstpinname="Backbuffer Height">
-  </LINK>
   <LINK srcnodeid="521" srcpinname="View" dstnodeid="183" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="521" srcpinname="Projection" dstnodeid="184" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="521" srcpinname="ResolutionX" dstnodeid="480" dstpinname="width">
+  <LINK srcnodeid="522" srcpinname="ResolutionXY" dstnodeid="523" dstpinname="XY">
   </LINK>
-  <LINK srcnodeid="521" srcpinname="ResolutionY" dstnodeid="480" dstpinname="height">
+  <LINK srcnodeid="523" srcpinname="X" dstnodeid="1" dstpinname="Backbuffer Width">
+  </LINK>
+  <LINK srcnodeid="523" srcpinname="Y" dstnodeid="1" dstpinname="Backbuffer Height">
+  </LINK>
+  <LINK srcnodeid="523" srcpinname="X" dstnodeid="480" dstpinname="width">
+  </LINK>
+  <LINK srcnodeid="523" srcpinname="Y" dstnodeid="480" dstpinname="height">
   </LINK>
   </PATCH>
