@@ -365,7 +365,7 @@
   <NODE id="43" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="960" top="10815" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1024|">
+  <PIN pinname="Y Input Value" visible="1" values="|2048|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -421,7 +421,7 @@
   </PIN>
   </NODE>
   <NODE id="53" nodename="CircularSpread (Spreads)" systemname="CircularSpread (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2370" top="2145" width="100" height="100">
+  <BOUNDS type="Node" left="4080" top="2715" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input X" visible="1" values="|0|">
   </PIN>
@@ -441,7 +441,7 @@
   </PIN>
   </NODE>
   <NODE id="55" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="2550" top="1530" width="0" height="0">
+  <BOUNDS type="Box" left="4260" top="2100" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|19|">
   </PIN>
@@ -451,7 +451,7 @@
   </PIN>
   </NODE>
   <NODE id="61" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3960" top="1515" width="100" height="100">
+  <BOUNDS type="Node" left="5670" top="2085" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Period" visible="1" values="|60|">
   </PIN>
@@ -483,9 +483,9 @@
   </PIN>
   </NODE>
   <NODE id="64" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="6045" top="420" width="0" height="0">
+  <BOUNDS type="Box" left="3300" top="900" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1024|">
+  <PIN pinname="Y Input Value" visible="1" values="|256|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -597,7 +597,7 @@
   </PIN>
   </NODE>
   <NODE id="74" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1740" top="3510" width="100" height="100">
+  <BOUNDS type="Node" left="285" top="2760" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -748,6 +748,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="86" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1770" top="4635" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="XYZ" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="6" srcpinname="X" dstnodeid="1" dstpinname="Backbuffer Width">
   </LINK>
   <LINK srcnodeid="6" srcpinname="Y" dstnodeid="1" dstpinname="Backbuffer Height">
@@ -858,8 +868,6 @@
   </LINK>
   <LINK srcnodeid="64" srcpinname="Y Output Value" dstnodeid="72" dstpinname="Spread Count">
   </LINK>
-  <LINK srcnodeid="25" srcpinname="Transform Out" dstnodeid="24" dstpinname="Transform">
-  </LINK>
   <LINK srcnodeid="73" srcpinname="Mesh" dstnodeid="24" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="74" srcpinname="Output" dstnodeid="25" dstpinname="X">
@@ -889,5 +897,9 @@
   <LINK srcnodeid="83" srcpinname="Style Out" dstnodeid="84" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="81" srcpinname="Output" dstnodeid="85" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="25" srcpinname="Transform Out" dstnodeid="86" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="86" srcpinname="Transform Out" dstnodeid="24" dstpinname="Transform">
   </LINK>
   </PATCH>
