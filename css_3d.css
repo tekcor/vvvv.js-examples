@@ -98,6 +98,40 @@ h2
 	font-size: 36px;
 }
 
+.btn {
+  background: #750d7a;
+  background-image: -webkit-linear-gradient(top, #750d7a, #2bb8b8);
+  background-image: -moz-linear-gradient(top, #750d7a, #2bb8b8);
+  background-image: -ms-linear-gradient(top, #750d7a, #2bb8b8);
+  background-image: -o-linear-gradient(top, #750d7a, #2bb8b8);
+  background-image: linear-gradient(to bottom, #750d7a, #2bb8b8);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c90e8e;
+  background-image: -webkit-linear-gradient(top, #c90e8e, #34d99c);
+  background-image: -moz-linear-gradient(top, #c90e8e, #34d99c);
+  background-image: -ms-linear-gradient(top, #c90e8e, #34d99c);
+  background-image: -o-linear-gradient(top, #c90e8e, #34d99c);
+  background-image: linear-gradient(to bottom, #c90e8e, #34d99c);
+  text-decoration: none;
+}
+
+#btn-editor {
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    width: 100px;
+}
+
 .statement {
     position:absolute;
     left:50%;

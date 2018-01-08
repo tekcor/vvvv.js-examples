@@ -17,6 +17,39 @@ body
         
 }
 
+.headline {
+    font-size: 20;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    z-index: 10;
+     transform: translate(-50%, 0%);
+    -webkit-transform:translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+    background: rgba(10,10,0,0.2);
+    font-family: Arial;
+    color: #ffffff;
+     padding: 10px 20px 10px 20px;
+       -webkit-border-radius: 19;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+    
+}
+
+.headline .link {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.headline a:visited
+{
+	color: rgba(100,200,230,255);
+	//background-color: rgba(240,50,50,0.9);
+	text-decoration: underline; 
+}
+
 .btn {
   background: #750d7a;
   background-image: -webkit-linear-gradient(top, #750d7a, #2bb8b8);
@@ -24,13 +57,13 @@ body
   background-image: -ms-linear-gradient(top, #750d7a, #2bb8b8);
   background-image: -o-linear-gradient(top, #750d7a, #2bb8b8);
   background-image: linear-gradient(to bottom, #750d7a, #2bb8b8);
-  -webkit-border-radius: 19;
-  -moz-border-radius: 19;
-  border-radius: 19px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
   font-family: Arial;
   color: #ffffff;
   font-size: 48px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
 
@@ -54,13 +87,13 @@ body
   background-image: -ms-linear-gradient(top, #750d7a, #2bb8b8);
   background-image: -o-linear-gradient(top, #750d7a, #2bb8b8);
   background-image: linear-gradient(to bottom, #750d7a, #2bb8b8);
-  -webkit-border-radius: 19;
-  -moz-border-radius: 19;
-  border-radius: 19px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
   font-family: Arial;
   color: #ffffff;
   font-size: 18px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
 
@@ -73,6 +106,11 @@ body
   background-image: -o-linear-gradient(top, #c90e8e, #34d99c);
   background-image: linear-gradient(to bottom, #c90e8e, #34d99c);
   text-decoration: none;
+}
+
+#dropdown{
+    top: 10px;
+    left: 10px;
 }
 
 .panel {
