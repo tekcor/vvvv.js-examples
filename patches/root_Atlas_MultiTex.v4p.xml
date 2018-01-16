@@ -1980,8 +1980,6 @@
   </LINK>
   <LINK srcnodeid="481" srcpinname="Texture Out" dstnodeid="485" dstpinname="skybox">
   </LINK>
-  <LINK srcnodeid="485" srcpinname="Layer" dstnodeid="47" dstpinname="Layer 3">
-  </LINK>
   <LINK srcnodeid="487" srcpinname="Y Output Value" dstnodeid="485" dstpinname="posCam">
   </LINK>
   <LINK srcnodeid="244" srcpinname="Output" dstnodeid="245" dstpinname="Filename">
@@ -2049,5 +2047,7 @@
   <LINK srcnodeid="523" srcpinname="X" dstnodeid="480" dstpinname="width">
   </LINK>
   <LINK srcnodeid="523" srcpinname="Y" dstnodeid="480" dstpinname="height">
+  </LINK>
+  <LINK srcnodeid="485" srcpinname="Layer" dstnodeid="47" dstpinname="Layer 3">
   </LINK>
   </PATCH>
