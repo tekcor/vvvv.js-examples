@@ -41,11 +41,11 @@
   <NODE id="10" nodename="RGB (Color Join)" systemname="RGB (Color Join)" componentmode="Hidden">
   <BOUNDS type="Node" left="2130" top="10845" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Red" visible="1" values="|1|">
+  <PIN pinname="Red" visible="1" values="|0.2|">
   </PIN>
-  <PIN pinname="Green" visible="1" values="|1|">
+  <PIN pinname="Green" visible="1" values="|0.2|">
   </PIN>
-  <PIN pinname="Blue" visible="1">
+  <PIN pinname="Blue" visible="1" values="|0.2|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
   </PIN>
@@ -503,6 +503,8 @@
   </BOUNDS>
   <PIN pinname="Source" visible="1">
   </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -582,6 +584,42 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="59" nodename="RGB (Color Join)" systemname="RGB (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3750" top="14865" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Red" visible="1" values="|0.3|">
+  </PIN>
+  <PIN pinname="Green" visible="1" values="|0.3|">
+  </PIN>
+  <PIN pinname="Blue" visible="1" values="|0.3|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="60" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4620" top="12555" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Up" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Down" visible="1">
+  </PIN>
+  <PIN pinname="Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Maximum" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Increment" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Mode" visible="1" values="|Clamp|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="14" srcpinname="Buffer" dstnodeid="11" dstpinname="Buffer">
   </LINK>
   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="11" dstpinname="Apply">
@@ -609,10 +647,6 @@
   <LINK srcnodeid="27" srcpinname="Layer" dstnodeid="1" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="23" srcpinname="Y Output Value" dstnodeid="27" dstpinname="instance count">
-  </LINK>
-  <LINK srcnodeid="28" srcpinname="Texture Out" dstnodeid="27" dstpinname="Texture">
-  </LINK>
-  <LINK srcnodeid="11" srcpinname="Texture Out" dstnodeid="27" dstpinname="InstanceWorldTex">
   </LINK>
   <LINK srcnodeid="10" srcpinname="Output" dstnodeid="1" dstpinname="Background Color">
   </LINK>
@@ -647,6 +681,10 @@
   <LINK srcnodeid="43" srcpinname="View" dstnodeid="1" dstpinname="View">
   </LINK>
   <LINK srcnodeid="43" srcpinname="Projection" dstnodeid="1" dstpinname="Projection">
+  </LINK>
+  <LINK srcnodeid="11" srcpinname="Texture Out" dstnodeid="27" dstpinname="InstanceWorldTex">
+  </LINK>
+  <LINK srcnodeid="28" srcpinname="Texture Out" dstnodeid="27" dstpinname="Texture">
   </LINK>
   <LINK srcnodeid="43" srcpinname="View" dstnodeid="44" dstpinname="Source">
   </LINK>
@@ -695,5 +733,9 @@
   <LINK srcnodeid="53" srcpinname="Layer" dstnodeid="58" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="58" srcpinname="Layer" dstnodeid="52" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="59" srcpinname="Output" dstnodeid="52" dstpinname="Background Color">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Overflow" dstnodeid="51" dstpinname="Update">
   </LINK>
   </PATCH>

@@ -1,0 +1,23 @@
+<xml encoding="UTF-8">
+  <folder folders="Folder1">
+    <img Filenames="bumpskin.jpg"></img>
+    <img Filenames="clouds.jpg"></img>
+  </folder>
+  
+  <folder folders="Folder2">
+    <img Filenames="crater.jpg"></img>
+    <img Filenames="Electric.jpg"></img>
+	<img Filenames="noise.jpg"></img>
+	<img Filenames="noiseb.jpg"></img>
+	<img Filenames="noisec.png"></img>
+  </folder>
+    <folder folders="Folder3">
+    <img Filenames="perlin.jpg"></img>
+    <img Filenames="shiphul1.jpg"></img>
+  </folder>
+  
+  <folder folders="Folder4">
+    <img Filenames="sun.png"></img>
+  </folder>
+  
+</xml>
