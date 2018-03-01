@@ -37,7 +37,7 @@
   </PIN>
   <PIN pinname="Near Plane" visible="1" values="|0.05|">
   </PIN>
-  <PIN pinname="Far Plane" visible="1" values="|100|">
+  <PIN pinname="Far Plane" visible="1" values="|500|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
