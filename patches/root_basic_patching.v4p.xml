@@ -281,7 +281,7 @@
   </BOUNDS>
   <PIN pinname="Hue" visible="1">
   </PIN>
-  <PIN pinname="Saturation" visible="1" values="|0.10000000000000073|">
+  <PIN pinname="Saturation" visible="1" values="|0.1|">
   </PIN>
   <PIN pinname="Value" visible="1">
   </PIN>
@@ -369,7 +369,7 @@
   </PIN>
   <PIN pinname="CamPos" visible="1">
   </PIN>
-  <PIN pinname="refraction etaRatio" visible="1">
+  <PIN pinname="refraction etaRatio" visible="1" values="|0|">
   </PIN>
   <PIN pinname="tNormal1" visible="1">
   </PIN>
@@ -381,7 +381,7 @@
   </PIN>
   <PIN pinname="u roughness" visible="1">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1" values="|0.675000011920929, 0.675000011920929, 0.675000011920929, 1|">
+  <PIN pinname="Ambient Color" visible="1" values="|0.7139999866485596, 0.7139999866485596, 0.7139999866485596, 1|">
   </PIN>
   <PIN pinname="u diffuseColor" visible="1">
   </PIN>
@@ -393,17 +393,167 @@
   </PIN>
   <PIN pinname="BumpFactor" visible="1">
   </PIN>
-  <PIN pinname="refract amount" visible="1">
+  <PIN pinname="refract amount" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="40" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="10335" top="5475" width="100" height="100">
+  <BOUNDS type="Box" left="9285" top="5340" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|1|,|0|,|4|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="41" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3705" top="5325" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="43" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3435" top="4065" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/facade/facade1.jpg|,|tex/facade/facade2.jpg|,|tex/facade/facade3.jpg|,|tex/facade/facade4.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="44" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3855" top="2415" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="45" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3780" top="1710" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/water_normal.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11850" top="3780" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Cube Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="47" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="12135" top="3330" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="48" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10995" top="4590" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="49" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12225" top="4470" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="XYZ" visible="1" values="|100|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="50" nodename="Skybox (EX9.Effect)" systemname="Skybox (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/Skybox.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="11070" top="5820" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="posCam" visible="1">
+  </PIN>
+  <PIN pinname="invertY" visible="1">
+  </PIN>
+  <PIN pinname="skybox" visible="1">
+  </PIN>
+  <PIN pinname="cube size" visible="1" values="|256|">
+  </PIN>
+  <PIN pinname="lod" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="52" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4125" top="7785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="53" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2355" top="4980" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/facade/facade1.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="54" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2010" top="6225" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -468,14 +618,34 @@
   </LINK>
   <LINK srcnodeid="19" srcpinname="Transform Out" dstnodeid="39" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="17" srcpinname="Camera Position" dstnodeid="39" dstpinname="CamPos">
-  </LINK>
   <LINK srcnodeid="33" srcpinname="Output" dstnodeid="39" dstpinname="u diffuseColor">
   </LINK>
   <LINK srcnodeid="40" srcpinname="Y Output Value" dstnodeid="39" dstpinname="u lightDir">
   </LINK>
   <LINK srcnodeid="37" srcpinname="Mesh" dstnodeid="39" dstpinname="Mesh">
   </LINK>
-  <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="1" dstpinname="Layers">
+  <LINK srcnodeid="41" srcpinname="Texture Out" dstnodeid="39" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="45" srcpinname="Output String" dstnodeid="44" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="50" dstpinname="skybox">
+  </LINK>
+  <LINK srcnodeid="47" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="39" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="17" srcpinname="Camera Position" dstnodeid="39" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="1" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="43" srcpinname="Output String" dstnodeid="41" dstpinname="Filename">
   </LINK>
   </PATCH>
