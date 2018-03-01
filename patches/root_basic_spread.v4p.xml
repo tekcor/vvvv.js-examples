@@ -69,7 +69,7 @@
   </PIN>
   </NODE>
   <NODE id="5" nodename="Renderer (EX9)" systemname="Renderer (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1290" top="9525" width="100" height="100">
+  <BOUNDS type="Node" left="1035" top="11160" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -846,6 +846,70 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="84" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2820" top="8805" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="85" nodename="Vector (2d Split)" systemname="Vector (2d Split)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2820" top="9390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="XY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="86" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3255" top="10095" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Inputs Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="87" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3090" top="10590" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="88" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2970" top="11040" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Calculate Aspect Ratio|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="89" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="315" top="6780" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|switch between different spreaded transforms|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="5" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="2" srcpinname="Output" dstnodeid="3" dstpinname="TranslateX">
@@ -973,5 +1037,19 @@
   <LINK srcnodeid="81" srcpinname="Left Button" dstnodeid="83" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="83" srcpinname="Up Edge" dstnodeid="82" dstpinname="Up">
+  </LINK>
+  <LINK srcnodeid="84" srcpinname="ResolutionXY" dstnodeid="85" dstpinname="XY">
+  </LINK>
+  <LINK srcnodeid="85" srcpinname="Y" dstnodeid="86" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="85" srcpinname="X" dstnodeid="86" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="86" srcpinname="Output" dstnodeid="87" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="85" srcpinname="X" dstnodeid="5" dstpinname="Backbuffer Width">
+  </LINK>
+  <LINK srcnodeid="85" srcpinname="Y" dstnodeid="5" dstpinname="Backbuffer Height">
+  </LINK>
+  <LINK srcnodeid="87" srcpinname="Transform Out" dstnodeid="5" dstpinname="Projection">
   </LINK>
   </PATCH>
