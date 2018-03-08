@@ -35,7 +35,7 @@
   </PIN>
   <PIN pinname="FOV" visible="1" values="|0.26|">
   </PIN>
-  <PIN pinname="Near Plane" visible="1" values="|0.05|">
+  <PIN pinname="Near Plane" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Far Plane" visible="1" values="|500|">
   </PIN>
