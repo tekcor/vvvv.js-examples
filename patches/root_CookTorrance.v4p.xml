@@ -93,6 +93,8 @@
   </PIN>
   <PIN pinname="Type" visible="1" values="|Texture|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -122,6 +124,8 @@
   <PIN pinname="Filename" visible="1">
   </PIN>
   <PIN pinname="Type" visible="1" values="|Cube Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -329,6 +333,8 @@
   </PIN>
   <PIN pinname="Generate Normals" visible="1">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -406,6 +412,8 @@
   <PIN pinname="Technique" visible="1">
   </PIN>
   <PIN pinname="posCam" visible="1">
+  </PIN>
+  <PIN pinname="invertY" visible="1">
   </PIN>
   <PIN pinname="skybox" visible="1">
   </PIN>
@@ -691,6 +699,12 @@
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|8|">
   </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="NearPlane" visible="1" values="|0.05|">
+  </PIN>
+  <PIN pinname="FarPlane" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -848,16 +862,16 @@
   </LINK>
   <LINK srcnodeid="824" srcpinname="Camera Position" dstnodeid="799" dstpinname="posCam">
   </LINK>
-  <LINK srcnodeid="826" srcpinname="Output" dstnodeid="753" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="827" srcpinname="Output" dstnodeid="754" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="828" srcpinname="Y Output Value" dstnodeid="769" dstpinname="Z">
-  </LINK>
   <LINK srcnodeid="771" srcpinname="X Out" dstnodeid="769" dstpinname="X">
   </LINK>
   <LINK srcnodeid="771" srcpinname="Y Out" dstnodeid="769" dstpinname="Y">
   </LINK>
   <LINK srcnodeid="824" srcpinname="Camera Position" dstnodeid="742" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="826" srcpinname="Output" dstnodeid="753" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="827" srcpinname="Output" dstnodeid="754" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="828" srcpinname="Y Output Value" dstnodeid="769" dstpinname="Z">
   </LINK>
   </PATCH>

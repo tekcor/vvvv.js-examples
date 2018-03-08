@@ -69,6 +69,8 @@
   </BOUNDS>
   <PIN pinname="Source" visible="1">
   </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -92,6 +94,8 @@
   <BOUNDS type="Node" left="1815" top="15345" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Source" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -153,6 +157,8 @@
   </BOUNDS>
   <PIN pinname="Source" visible="1">
   </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -204,6 +210,8 @@
   <BOUNDS type="Node" left="11205" top="17790" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Source" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -759,6 +767,8 @@
   </PIN>
   <PIN pinname="Type" visible="1" values="|Texture|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -821,6 +831,8 @@
   </PIN>
   <PIN pinname="Generate Normals" visible="1" values="|0|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -857,6 +869,8 @@
   </PIN>
   <PIN pinname="Type" visible="1" values="|Cube Texture Flip Y|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -866,6 +880,8 @@
   <PIN pinname="Filename" visible="1">
   </PIN>
   <PIN pinname="Type" visible="1" values="|Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1361,6 +1377,8 @@
   </PIN>
   <PIN pinname="Generate Normals" visible="1" values="|0|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -1495,6 +1513,8 @@
   </PIN>
   <PIN pinname="Type" visible="1" values="|Cube Texture Flip Y|">
   </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -1526,6 +1546,8 @@
   <PIN pinname="Technique" visible="1">
   </PIN>
   <PIN pinname="posCam" visible="1">
+  </PIN>
+  <PIN pinname="invertY" visible="1">
   </PIN>
   <PIN pinname="skybox" visible="1">
   </PIN>
@@ -1714,6 +1736,10 @@
   <PIN pinname="Initial Distance" visible="1" values="|11|">
   </PIN>
   <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="NearPlane" visible="1" values="|0.05|">
+  </PIN>
+  <PIN pinname="FarPlane" visible="1" values="|100|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2038,6 +2064,8 @@
   </LINK>
   <LINK srcnodeid="521" srcpinname="Projection" dstnodeid="184" dstpinname="Transform In">
   </LINK>
+  <LINK srcnodeid="485" srcpinname="Layer" dstnodeid="47" dstpinname="Layer 3">
+  </LINK>
   <LINK srcnodeid="522" srcpinname="ResolutionXY" dstnodeid="523" dstpinname="XY">
   </LINK>
   <LINK srcnodeid="523" srcpinname="X" dstnodeid="1" dstpinname="Backbuffer Width">
@@ -2047,7 +2075,5 @@
   <LINK srcnodeid="523" srcpinname="X" dstnodeid="480" dstpinname="width">
   </LINK>
   <LINK srcnodeid="523" srcpinname="Y" dstnodeid="480" dstpinname="height">
-  </LINK>
-  <LINK srcnodeid="485" srcpinname="Layer" dstnodeid="47" dstpinname="Layer 3">
   </LINK>
   </PATCH>

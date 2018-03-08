@@ -1035,6 +1035,10 @@
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
+  <PIN pinname="NearPlane" visible="1" values="|0.05|">
+  </PIN>
+  <PIN pinname="FarPlane" visible="1" values="|100|">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>

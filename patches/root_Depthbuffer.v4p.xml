@@ -133,6 +133,8 @@
   </BOUNDS>
   <PIN pinname="Source" visible="1">
   </PIN>
+  <PIN pinname="Update" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -154,6 +156,8 @@
   <BOUNDS type="Node" left="6450" top="12435" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Source" visible="1">
+  </PIN>
+  <PIN pinname="Update" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -710,6 +714,10 @@
   <PIN pinname="Initial Distance" visible="1" values="|6|">
   </PIN>
   <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="NearPlane" visible="1" values="|0.05|">
+  </PIN>
+  <PIN pinname="FarPlane" visible="1" values="|100|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
