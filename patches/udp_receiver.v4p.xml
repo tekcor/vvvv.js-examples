@@ -1,0 +1,79 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="7500" height="7500">
+  </BOUNDS>
+  <NODE id="1" nodename="UDP (Network Server)" systemname="UDP (Network Server)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4260" top="2610" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Port" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="2" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3510" top="1605" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|5001|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Port|">
+  </PIN>
+  </NODE>
+  <NODE id="3" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5250" top="2100" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Enabled|">
+  </PIN>
+  </NODE>
+  <NODE id="4" nodename="S+H (String)" systemname="S+H (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4380" top="3885" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Set" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="5" nodename="AsString (Buffer)" systemname="AsString (Buffer)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3570" top="3195" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Buffer" visible="1">
+  </PIN>
+  <PIN pinname="Encoding" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="6" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3600" top="4650" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Port">
+  </LINK>
+  <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Enabled">
+  </LINK>
+  <LINK srcnodeid="1" srcpinname="OnData" dstnodeid="4" dstpinname="Set">
+  </LINK>
+  <LINK srcnodeid="1" srcpinname="Output" dstnodeid="5" dstpinname="Buffer">
+  </LINK>
+  <LINK srcnodeid="5" srcpinname="String" dstnodeid="4" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="4" srcpinname="Output" dstnodeid="6" dstpinname="Input String">
+  </LINK>
+  </PATCH>
