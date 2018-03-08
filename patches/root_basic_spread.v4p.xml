@@ -115,7 +115,7 @@
   </PIN>
   </NODE>
   <NODE id="8" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1455" top="7320" width="9330" height="100">
+  <BOUNDS type="Node" left="1455" top="7320" width="14895" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -127,7 +127,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|4|">
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -910,6 +912,154 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="90" nodename="LinearSpread (Spreads)" systemname="LinearSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16965" top="4800" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Width" visible="1">
+  </PIN>
+  <PIN pinname="Alignment" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="91" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16815" top="5925" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="92" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="18165" top="4005" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|32|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Count|">
+  </PIN>
+  </NODE>
+  <NODE id="93" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="17355" top="5220" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.03|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="94" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="16140" top="3480" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Input|">
+  </PIN>
+  </NODE>
+  <NODE id="95" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="17295" top="3495" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Width|">
+  </PIN>
+  </NODE>
+  <NODE id="96" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18780" top="4950" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="97" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="18810" top="2190" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|animate the phase|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="100" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="18780" top="4380" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|-10|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="101" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18780" top="5430" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|-2|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="103" nodename="RandomSpread (Spreads)" systemname="RandomSpread (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18450" top="3465" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Width" visible="1">
+  </PIN>
+  <PIN pinname="Random Seed" visible="1">
+  </PIN>
+  <PIN pinname="Spread Count" visible="1" values="|128|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="5" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="2" srcpinname="Output" dstnodeid="3" dstpinname="TranslateX">
@@ -1051,5 +1201,27 @@
   <LINK srcnodeid="85" srcpinname="Y" dstnodeid="5" dstpinname="Backbuffer Height">
   </LINK>
   <LINK srcnodeid="87" srcpinname="Transform Out" dstnodeid="5" dstpinname="Projection">
+  </LINK>
+  <LINK srcnodeid="94" srcpinname="Y Output Value" dstnodeid="90" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="95" srcpinname="Y Output Value" dstnodeid="90" dstpinname="Width">
+  </LINK>
+  <LINK srcnodeid="92" srcpinname="Y Output Value" dstnodeid="90" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="90" srcpinname="Output" dstnodeid="91" dstpinname="TranslateX">
+  </LINK>
+  <LINK srcnodeid="93" srcpinname="Y Output Value" dstnodeid="91" dstpinname="ScaleX">
+  </LINK>
+  <LINK srcnodeid="93" srcpinname="Y Output Value" dstnodeid="91" dstpinname="ScaleY">
+  </LINK>
+  <LINK srcnodeid="91" srcpinname="Transform Out" dstnodeid="8" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="100" srcpinname="Y Output Value" dstnodeid="96" dstpinname="Period">
+  </LINK>
+  <LINK srcnodeid="96" srcpinname="Output" dstnodeid="101" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="101" srcpinname="Output" dstnodeid="91" dstpinname="TranslateY">
+  </LINK>
+  <LINK srcnodeid="103" srcpinname="Output" dstnodeid="96" dstpinname="Phase">
   </LINK>
   </PATCH>
