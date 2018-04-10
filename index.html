@@ -6,7 +6,24 @@
 		<link rel="stylesheet" type="text/css" href="index.css" >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
- </head>
+                
+                <script language="JavaScript">
+    //document.oncontextmenu =new Function("return false;")
+$(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Disable" the horizontal scroll.
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); </script>	
+        
+        </head>
+ 
+ 
 	 <body>
                 <div  class="headline">
 			<a href="http://vvvvjs.com">vvvv.js</a> / examples by David Gann <a href="http://000.graphics">000.graphics</a>
