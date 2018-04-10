@@ -1028,12 +1028,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="218" nodename="./camera_touch.v4p" systemname="./camera_touch" filename="./camera_touch.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2460" top="11430" width="100" height="100">
+  <NODE id="219" nodename="./Camera_Touch.v4p" systemname="./Camera_Touch" filename="./Camera_Touch.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2640" top="10350" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|13|">
   </PIN>
-  <PIN pinname="Y" visible="1">
+  <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
   <PIN pinname="NearPlane" visible="1" values="|0.05|">
   </PIN>
@@ -1218,22 +1218,22 @@
   </LINK>
   <LINK srcnodeid="213" srcpinname="Output" dstnodeid="217" dstpinname="Input 2">
   </LINK>
-  <LINK srcnodeid="218" srcpinname="View" dstnodeid="42" dstpinname="View">
-  </LINK>
-  <LINK srcnodeid="218" srcpinname="Projection" dstnodeid="42" dstpinname="Projection">
-  </LINK>
-  <LINK srcnodeid="218" srcpinname="View" dstnodeid="183" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="218" srcpinname="Projection" dstnodeid="184" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="218" srcpinname="ResolutionX" dstnodeid="1" dstpinname="Backbuffer Width">
-  </LINK>
-  <LINK srcnodeid="218" srcpinname="ResolutionY" dstnodeid="1" dstpinname="Backbuffer Height">
-  </LINK>
   <LINK srcnodeid="159" srcpinname="Output Y" dstnodeid="134" dstpinname="Z">
   </LINK>
   <LINK srcnodeid="159" srcpinname="Output X" dstnodeid="134" dstpinname="X">
   </LINK>
   <LINK srcnodeid="161" srcpinname="XYZ" dstnodeid="192" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="View" dstnodeid="42" dstpinname="View">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="Projection" dstnodeid="42" dstpinname="Projection">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="ResolutionX" dstnodeid="1" dstpinname="Backbuffer Width">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="ResolutionY" dstnodeid="1" dstpinname="Backbuffer Height">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="View" dstnodeid="183" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="Projection" dstnodeid="184" dstpinname="Transform In">
   </LINK>
   </PATCH>
