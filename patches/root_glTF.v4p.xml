@@ -65,6 +65,10 @@
   </PIN>
   <PIN pinname="Technique" visible="1">
   </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
   <PIN pinname="posCam" visible="1" values="|0|">
   </PIN>
   <PIN pinname="invertY" visible="1" values="|0|">
@@ -393,7 +397,7 @@
   </PIN>
   </NODE>
   <NODE id="124" nodename="Textures (glTF)" systemname="Textures (glTF)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3195" top="5025" width="100" height="100">
+  <BOUNDS type="Node" left="3195" top="5025" width="2895" height="100">
   </BOUNDS>
   <PIN pinname="glTF" visible="1">
   </PIN>
@@ -461,6 +465,10 @@
   </PIN>
   <PIN pinname="Technique" visible="1">
   </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
   <PIN pinname="Texture Transform" visible="1">
   </PIN>
   <PIN pinname="u LightDirection" visible="1">
@@ -511,7 +519,7 @@
   </PIN>
   <PIN pinname="occlusion" visible="1">
   </PIN>
-  <PIN pinname="exposure" visible="1" values="|1|">
+  <PIN pinname="exposure" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="alpha" visible="1">
   </PIN>
@@ -593,5 +601,13 @@
   <LINK srcnodeid="154" srcpinname="Layer" dstnodeid="20" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="124" srcpinname="Base Color Texture" dstnodeid="154" dstpinname="u BaseColorSampler">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Normal Texture" dstnodeid="154" dstpinname="u NormalSampler">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Emissive Texture" dstnodeid="154" dstpinname="u EmissiveSampler">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Metallic Roughness Texture" dstnodeid="154" dstpinname="u MetallicRoughnessSampler">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Occlusion Texture" dstnodeid="154" dstpinname="u OcclusionSampler">
   </LINK>
   </PATCH>
