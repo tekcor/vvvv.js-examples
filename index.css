@@ -95,17 +95,25 @@ body
   font-size: 18px;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
+  
+  
 }
 
 .dropdown:hover .panel {
     display: block;
-      background: #c90e8e;
-  background-image: -webkit-linear-gradient(top, #c90e8e, #34d99c);
-  background-image: -moz-linear-gradient(top, #c90e8e, #34d99c);
-  background-image: -ms-linear-gradient(top, #c90e8e, #34d99c);
-  background-image: -o-linear-gradient(top, #c90e8e, #34d99c);
-  background-image: linear-gradient(to bottom, #c90e8e, #34d99c);
+      background: #2d2d2d	;
+
   text-decoration: none;
+
+         -webkit-border-radius: 19;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  
+border-style: outset;
+
+  background: #648880;
+  background: linear-gradient(to right, #360033,  #0b8793);
+
 }
 
 #dropdown{
@@ -122,8 +130,10 @@ body
     overflow: auto;
     background: #fafafa;
     box-sizing: border-box;
-}
+	
 
+
+}
 
 
 #panel #content {
@@ -141,8 +151,9 @@ body
 }
 
 #panel #content .link {
-    color: #2194CE;
+    color: #ffffff	;
     text-decoration: none;
+
     cursor: pointer;
     display: block;
 }
@@ -153,6 +164,7 @@ h1 {
     margin-left: 20px;
     font-size: 25px;
     font-weight: normal;
+	color: #ffffff;
 }
 
 
@@ -168,6 +180,7 @@ h2 {
 
     font-size: 20px;
     font-weight: normal;
+	color: #ffffff;
 
 }
 
