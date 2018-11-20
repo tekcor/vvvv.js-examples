@@ -113,6 +113,7 @@ h2
   font-size: 18px;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
+  z-index: 15;
 }
 
 .btn:hover {
